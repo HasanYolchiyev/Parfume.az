@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="styl icon" href="./assets/img/Parfume.az.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Parfume.az</title>
+</head>
+<body>
+  <style>
+    * {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: orange;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header a:hover {
+  background-color: #dedede;
+  color: black;
+}
+
+.header a.active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.klasd{
+  background-color:whitesmoke;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: context-menu;
+}
+.card{
+  background-color: white;
+  width: 220px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.cardimage{
+  height: 170px;
+  margin-bottom: 15px;
+  background-size:cover;
+  border-radius: 15px 15px 0 0;
+}
+.card a{
+  background-color: greenyellow;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:darkgoldenrod;
+  color:#4b4c4d;
+  cursor: context-menu;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+  </style>
+    <header> 
+        <div class="header">
+            <a href=""class="logo">Parfume.az</a>
+            <div class="header-right">
+              <a class="active" href="./about.html">About us</a>
+              <a href="./contact.html">Contact</a>
+              <a href="">Parfumes</a>
+            </div>
+          </div>
+    </header>
+    <div class="klasd">
+    <main>
+        <div class="all">
+          <section class="container">
+            <div class="card">
+                <div class="cardimage car1">
+                  <a href="./part1.html"><img src="./assets/img/01144640002-2-600x600-120x120.jpg" alt=""></a>
+                </div>
+                <h3>Giorgio Armani
+                  My Waypink</h3>
+                <a href="./part1.html">Indi Sipariş et</a>
+            </div>
+            <div class="card ">
+              <div class="cardimage car2">
+                <a href="./part2.html"><img src="./assets/img/96211-ff27aa4872ae69bc5f1bcfb50d1c44be-120x120.jpg" alt=""></a>
+              </div>
+              <h3>Antonio Banderas
+                The Icon</h3>
+              <a href="./part2.html">Indi Sipariş et</a>
+          </div>
+          <div class="card">
+            <div class="cardimage car3">
+              <a href="./part3.html"><img src="./assets/img/Ag33-120x120.jpg" alt=""></a>
+            </div>
+            <h3>Agent Provocateur
+              Agent Provocateur</h3>
+            <a href="./part3.html">Indi Sipariş et</a>
+        </div>
+        <div class="card">
+          <div class="cardimage car4">
+            <a href="./part4.html"><img src="./assets/img/carolina_herrera_bad_boy_le_parfum_edp_100ml_for_men-120x120.jpg" alt=""></a>
+          </div>
+          <h3>Carolina Herrera
+            Bad Boy Le Parfum</h3>
+          <a href="./part4.html">Indi Sipariş et</a>
+      </div>  
+          </section>
+          <section class="container">
+            <div class="card">
+                <div class="cardimage car1">
+                  <a href="./part5.html"><img src="./assets/img/initio-parfums-prives-psychedelic-love-eau-de-parfum_14908086_24767430_1000-120x120.jpg " alt=""></a>
+                </div>
+                <h3>Initio
+                  Psychedelic Love</h3>
+                <a href="./part5.html">Indi Sipariş et</a>
+            </div>
+            <div class="card ">
+              <div class="cardimage car2">
+                <a href="./part6.html"><img src="./assets/img/collector-120x120.jpg" alt=""></a>
+              </div>
+              <h3>Alexandre J
+                Black Muscs</h3>
+              <a href="./part6.html">Indi Sipariş et</a>
+          </div>
+          <div class="card">
+            <div class="cardimage car3">
+              <a href="./part7.html"><img src="./assets/img/Fabulous-120x120.jpg" alt=""></a>
+            </div>
+            <h3>Tom Ford
+              Fabulous</h3>
+            <a href="./part7.html">Indi Sipariş et</a>
+        </div>
+        <div class="card">
+          <div class="cardimage car4">
+            <a href="./part8.html"><img src="./assets/img/gilles_museum-120x120.jpg" alt=""></a>
+          </div>
+          <h3>Museum
+            Gilles</h3>
+          <a href="./part8.html">Indi Sipariş et</a>
+      </div>  
+          </section>
+          <section class="container">
+            <div class="card">
+                <div class="cardimage car1">
+                  <a href="./part9.html"><img src="./assets/img/liberty_museum-120x120.jpg" alt=""></a>
+                </div>
+                <h3>Museum
+                  Liberty</h3>
+                <a href="./part9.html">Indi Sipariş et</a>
+            </div>
+            <div class="card ">
+              <div class="cardimage car2">
+                <a href="./part10.html"><img src="./assets/img/msm-t2-120x120.jpg" alt=""></a>
+              </div>
+              <h3>Museum
+                Museum II</h3>
+              <a href="./part10.html">Indi Sipariş et</a>
+          </div>
+          <div class="card">
+            <div class="cardimage car3">
+              <a href="./part11.html"><img src="./assets/img/Tiziana_Kirke-120x120.jpg" alt=""></a>
+            </div>
+            <h3>Tiziana Terenzi
+              Kirke</h3>
+            <a href="./part11.html">Indi Sipariş et</a>
+        </div>
+        <div class="card">
+          <div class="cardimage car4">
+            <a href="./part12.html"><img src="./assets/img/tom-ford-lost-cherry-edp-50-ml-120x120.jpg" alt=""></a>
+          </div>
+          <h3>Lost Cherry</h3>
+          <a href="./part12.html">Indi Sipariş et</a>
+      </div>  
+          </section>
+        </div>
+    </main>
+  </div>
+    <div class="footer-basic">
+      <footer>
+          <div class="social">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.fa-facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="./Ana-sehife.html">Home</a></li>
+              <li class="list-inline-item"><a href="./contact.html">Contact</a></li>
+              <li class="list-inline-item"><a href="./about.html">About</a></li>
+          </ul>
+          <p class="copyright">Company Name - Parfume.az</p>
+      </footer>
+  </div>
+  </body>
+</html>
